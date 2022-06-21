@@ -1,0 +1,19 @@
+{
+  "name": "acordionproject",
+  "version": "1.0.0",
+  "description": "Es un proyecto en el que por medio de acordiones vamos a mostrar la informacion e 2 diferentes API's. El proyecto estara disponible tanto para dispositivos moviles como computadoras Desktops.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaikJim/AcordionProject.git"
+  },
+  "author": "Maikol Jimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaikJim/AcordionProject/issues"
+  },
+  "homepage": "https://github.com/MaikJim/AcordionProject#readme"
+}

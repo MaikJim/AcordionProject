@@ -1,0 +1,29 @@
+#accordion{
+    background-color: #eee;
+    color: #444;
+    padding: 18px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+}
+#accordion:hover, #active{
+    background-color: #ccc;
+}
+#panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+#accordion::after{
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin: 5px;
+}
+#active::after{
+    content: "\2796";
+}
