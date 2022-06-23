@@ -3,9 +3,7 @@ body{
     background: azure;
     font-size: larger;
 }
-header{
-    text-align: center;
-}
+/* Layout */
 .accordion{
     background-color: ghostwhite;
     color: #444;
@@ -39,9 +37,24 @@ header{
 .active::after{
     content: "\2796";
 }
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 20%;
+}
+/*  */
 h2 {
     text-align: center;
     margin: 0;
+}
+p {
+    margin: 0px;
+}
+header{
+    text-align: center;
 }
 @media (min-width: 500px) {
     .accordion-container {

@@ -1,5 +1,11 @@
 {
     "cSpell.words": [
+        "cardy",
+        "Digi",
+        "Digimon",
         "Maikol"
+    ],
+    "conventionalCommits.scopes": [
+        "getInformation"
     ]
 }
