@@ -28,7 +28,13 @@ async function getPokeCards(){
             const res = await fetch(API_POKEMON(i))
             const data = await res.json()
             Cards(i).innerHTML = `<img src = '${data.sprites.front_default}' alt = "Pokemon">
-                                <div><p>Name: ${data.name}</p> <p>Type:${data.types[0].type.name}</p></div>`
+                                <div>
+                                    <h4>Pokemon</h4>
+                                    <div>
+                                        <p>Name: ${data.name}</p> 
+                                        <p>Type:${data.types[0].type.name}</p>
+                                    </div>
+                                </div>`
         }
     } catch(err){
         console.error(err);
